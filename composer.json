@@ -1,0 +1,19 @@
+{
+    "name": "jeffmingup\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jeffmingup",
+            "email": "1960588251@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeffmingup\\Weather\\": "src"
+        }
+    }
+}
